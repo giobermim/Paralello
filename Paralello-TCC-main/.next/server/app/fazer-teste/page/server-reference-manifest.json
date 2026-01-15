@@ -1,0 +1,20 @@
+{
+  "node": {
+    "40a138e4531214d56f932ad34704feda2ae251c9ac": {
+      "workers": {
+        "app/fazer-teste/page": {
+          "moduleId": 79577,
+          "async": false,
+          "exportedName": "saveTestResults",
+          "filename": "app/agenda/teste-vocacional/actions.ts"
+        }
+      },
+      "layer": {
+        "app/fazer-teste/page": "action-browser"
+      },
+      "exportedName": "saveTestResults",
+      "filename": "app/agenda/teste-vocacional/actions.ts"
+    }
+  },
+  "edge": {}
+}

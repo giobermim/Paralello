@@ -1,0 +1,185 @@
+{
+  "node": {
+    "00a5c73d01448a448cafbf314f2103bda7312fd5f7": {
+      "workers": {
+        "app/agenda/calendario/page": {
+          "moduleId": 67471,
+          "async": false,
+          "exportedName": "signout",
+          "filename": "app/auth/actions.ts"
+        }
+      },
+      "layer": {
+        "app/agenda/calendario/page": "action-browser"
+      },
+      "exportedName": "signout",
+      "filename": "app/auth/actions.ts"
+    },
+    "001eee0ea2e32480cb65d838a8d69f2bc0ee4cb26f": {
+      "workers": {
+        "app/agenda/calendario/page": {
+          "moduleId": 67471,
+          "async": false,
+          "exportedName": "getProfile",
+          "filename": "app/agenda/perfil/actions.ts"
+        }
+      },
+      "layer": {
+        "app/agenda/calendario/page": "action-browser"
+      },
+      "exportedName": "getProfile",
+      "filename": "app/agenda/perfil/actions.ts"
+    },
+    "605ad3937fcec750aa54a721f03bd83763ab184165": {
+      "workers": {
+        "app/agenda/calendario/page": {
+          "moduleId": 67471,
+          "async": false,
+          "exportedName": "saveProfile",
+          "filename": "app/agenda/perfil/actions.ts"
+        }
+      },
+      "layer": {
+        "app/agenda/calendario/page": "action-browser"
+      },
+      "exportedName": "saveProfile",
+      "filename": "app/agenda/perfil/actions.ts"
+    },
+    "004848681f943a2fa6a735a7603fa78aeb2eff524a": {
+      "workers": {
+        "app/agenda/calendario/page": {
+          "moduleId": 67471,
+          "async": false,
+          "exportedName": "getTodayNotifications",
+          "filename": "app/actions/eventos.ts"
+        }
+      },
+      "layer": {
+        "app/agenda/calendario/page": "rsc"
+      },
+      "exportedName": "getTodayNotifications",
+      "filename": "app/actions/eventos.ts"
+    },
+    "40985ea644f05616cac54c1155778d45be44264a78": {
+      "workers": {
+        "app/agenda/calendario/page": {
+          "moduleId": 67471,
+          "async": false,
+          "exportedName": "createCustomTag",
+          "filename": "app/actions/tags.ts"
+        }
+      },
+      "layer": {
+        "app/agenda/calendario/page": "rsc"
+      },
+      "exportedName": "createCustomTag",
+      "filename": "app/actions/tags.ts"
+    },
+    "60cf12ea222469e137189d611583c62846e2c33c18": {
+      "workers": {
+        "app/agenda/calendario/page": {
+          "moduleId": 67471,
+          "async": false,
+          "exportedName": "updateCustomTag",
+          "filename": "app/actions/tags.ts"
+        }
+      },
+      "layer": {
+        "app/agenda/calendario/page": "rsc"
+      },
+      "exportedName": "updateCustomTag",
+      "filename": "app/actions/tags.ts"
+    },
+    "40d19159d2632402f9b59599a96824ce798873999b": {
+      "workers": {
+        "app/agenda/calendario/page": {
+          "moduleId": 67471,
+          "async": false,
+          "exportedName": "deleteCustomTag",
+          "filename": "app/actions/tags.ts"
+        }
+      },
+      "layer": {
+        "app/agenda/calendario/page": "rsc"
+      },
+      "exportedName": "deleteCustomTag",
+      "filename": "app/actions/tags.ts"
+    },
+    "006b64897db3133c369c21a89f69a18c7a8673aeef": {
+      "workers": {
+        "app/agenda/calendario/page": {
+          "moduleId": 67471,
+          "async": false,
+          "exportedName": "getAllTags",
+          "filename": "app/actions/tags.ts"
+        }
+      },
+      "layer": {
+        "app/agenda/calendario/page": "rsc"
+      },
+      "exportedName": "getAllTags",
+      "filename": "app/actions/tags.ts"
+    },
+    "40f6ad126f174a86dd081f1986bf5166b4aec8fe18": {
+      "workers": {
+        "app/agenda/calendario/page": {
+          "moduleId": 67471,
+          "async": false,
+          "exportedName": "createEvento",
+          "filename": "app/actions/eventos.ts"
+        }
+      },
+      "layer": {
+        "app/agenda/calendario/page": "rsc"
+      },
+      "exportedName": "createEvento",
+      "filename": "app/actions/eventos.ts"
+    },
+    "60c6cd1767d79d6703e220f89d796da5fca0e1adae": {
+      "workers": {
+        "app/agenda/calendario/page": {
+          "moduleId": 67471,
+          "async": false,
+          "exportedName": "updateEvento",
+          "filename": "app/actions/eventos.ts"
+        }
+      },
+      "layer": {
+        "app/agenda/calendario/page": "rsc"
+      },
+      "exportedName": "updateEvento",
+      "filename": "app/actions/eventos.ts"
+    },
+    "4005ef675c21e61f593e536aed03f7e1aa4b652fbb": {
+      "workers": {
+        "app/agenda/calendario/page": {
+          "moduleId": 67471,
+          "async": false,
+          "exportedName": "deleteEvento",
+          "filename": "app/actions/eventos.ts"
+        }
+      },
+      "layer": {
+        "app/agenda/calendario/page": "rsc"
+      },
+      "exportedName": "deleteEvento",
+      "filename": "app/actions/eventos.ts"
+    },
+    "00ed5b835271d4cc4b8bf9cdca3bc525bc25d1274a": {
+      "workers": {
+        "app/agenda/calendario/page": {
+          "moduleId": 67471,
+          "async": false,
+          "exportedName": "getEventos",
+          "filename": "app/actions/eventos.ts"
+        }
+      },
+      "layer": {
+        "app/agenda/calendario/page": "rsc"
+      },
+      "exportedName": "getEventos",
+      "filename": "app/actions/eventos.ts"
+    }
+  },
+  "edge": {}
+}

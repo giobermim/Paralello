@@ -1,0 +1,20 @@
+{
+  "node": {
+    "00a5c73d01448a448cafbf314f2103bda7312fd5f7": {
+      "workers": {
+        "app/termos-de-uso/page": {
+          "moduleId": 22752,
+          "async": false,
+          "exportedName": "signout",
+          "filename": "app/auth/actions.ts"
+        }
+      },
+      "layer": {
+        "app/termos-de-uso/page": "action-browser"
+      },
+      "exportedName": "signout",
+      "filename": "app/auth/actions.ts"
+    }
+  },
+  "edge": {}
+}

@@ -1,0 +1,65 @@
+{
+  "node": {
+    "00a5c73d01448a448cafbf314f2103bda7312fd5f7": {
+      "workers": {
+        "app/agenda/resumos/page": {
+          "moduleId": 23605,
+          "async": false,
+          "exportedName": "signout",
+          "filename": "app/auth/actions.ts"
+        }
+      },
+      "layer": {
+        "app/agenda/resumos/page": "action-browser"
+      },
+      "exportedName": "signout",
+      "filename": "app/auth/actions.ts"
+    },
+    "001eee0ea2e32480cb65d838a8d69f2bc0ee4cb26f": {
+      "workers": {
+        "app/agenda/resumos/page": {
+          "moduleId": 23605,
+          "async": false,
+          "exportedName": "getProfile",
+          "filename": "app/agenda/perfil/actions.ts"
+        }
+      },
+      "layer": {
+        "app/agenda/resumos/page": "action-browser"
+      },
+      "exportedName": "getProfile",
+      "filename": "app/agenda/perfil/actions.ts"
+    },
+    "605ad3937fcec750aa54a721f03bd83763ab184165": {
+      "workers": {
+        "app/agenda/resumos/page": {
+          "moduleId": 23605,
+          "async": false,
+          "exportedName": "saveProfile",
+          "filename": "app/agenda/perfil/actions.ts"
+        }
+      },
+      "layer": {
+        "app/agenda/resumos/page": "action-browser"
+      },
+      "exportedName": "saveProfile",
+      "filename": "app/agenda/perfil/actions.ts"
+    },
+    "004848681f943a2fa6a735a7603fa78aeb2eff524a": {
+      "workers": {
+        "app/agenda/resumos/page": {
+          "moduleId": 23605,
+          "async": false,
+          "exportedName": "getTodayNotifications",
+          "filename": "app/actions/eventos.ts"
+        }
+      },
+      "layer": {
+        "app/agenda/resumos/page": "action-browser"
+      },
+      "exportedName": "getTodayNotifications",
+      "filename": "app/actions/eventos.ts"
+    }
+  },
+  "edge": {}
+}

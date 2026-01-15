@@ -1,0 +1,149 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [
+    {
+      "page": "/vestibular/[slug]",
+      "regex": "^/vestibular/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/vestibular/(?<nxtPslug>[^/]+?)(?:/)?$"
+    }
+  ],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/agenda",
+      "regex": "^/agenda(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/agenda(?:/)?$"
+    },
+    {
+      "page": "/agenda/calendario",
+      "regex": "^/agenda/calendario(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/agenda/calendario(?:/)?$"
+    },
+    {
+      "page": "/agenda/cronograma",
+      "regex": "^/agenda/cronograma(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/agenda/cronograma(?:/)?$"
+    },
+    {
+      "page": "/agenda/notas",
+      "regex": "^/agenda/notas(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/agenda/notas(?:/)?$"
+    },
+    {
+      "page": "/agenda/pomodoro",
+      "regex": "^/agenda/pomodoro(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/agenda/pomodoro(?:/)?$"
+    },
+    {
+      "page": "/agenda/resumos",
+      "regex": "^/agenda/resumos(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/agenda/resumos(?:/)?$"
+    },
+    {
+      "page": "/agenda/teste-vocacional",
+      "regex": "^/agenda/teste\\-vocacional(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/agenda/teste\\-vocacional(?:/)?$"
+    },
+    {
+      "page": "/auth/callback",
+      "regex": "^/auth/callback(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/auth/callback(?:/)?$"
+    },
+    {
+      "page": "/cadastro",
+      "regex": "^/cadastro(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/cadastro(?:/)?$"
+    },
+    {
+      "page": "/fazer-teste",
+      "regex": "^/fazer\\-teste(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/fazer\\-teste(?:/)?$"
+    },
+    {
+      "page": "/login",
+      "regex": "^/login(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/login(?:/)?$"
+    },
+    {
+      "page": "/termos-de-uso",
+      "regex": "^/termos\\-de\\-uso(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/termos\\-de\\-uso(?:/)?$"
+    },
+    {
+      "page": "/teste-vocacional",
+      "regex": "^/teste\\-vocacional(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/teste\\-vocacional(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/agenda/calendario/page": "app/agenda/calendario/page.js",
+  "/agenda/cronograma/page": "app/agenda/cronograma/page.js",
+  "/agenda/notas/page": "app/agenda/notas/page.js",
+  "/agenda/page": "app/agenda/page.js",
+  "/agenda/pomodoro/page": "app/agenda/pomodoro/page.js",
+  "/agenda/resumos/page": "app/agenda/resumos/page.js",
+  "/agenda/teste-vocacional/page": "app/agenda/teste-vocacional/page.js",
+  "/auth/callback/route": "app/auth/callback/route.js",
+  "/cadastro/page": "app/cadastro/page.js",
+  "/fazer-teste/page": "app/fazer-teste/page.js",
+  "/login/page": "app/login/page.js",
+  "/page": "app/page.js",
+  "/termos-de-uso/page": "app/termos-de-uso/page.js",
+  "/teste-vocacional/page": "app/teste-vocacional/page.js",
+  "/vestibular/[slug]/page": "app/vestibular/[slug]/page.js"
+}

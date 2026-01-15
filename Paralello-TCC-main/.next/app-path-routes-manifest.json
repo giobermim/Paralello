@@ -1,0 +1,19 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/agenda/calendario/page": "/agenda/calendario",
+  "/agenda/cronograma/page": "/agenda/cronograma",
+  "/agenda/notas/page": "/agenda/notas",
+  "/agenda/page": "/agenda",
+  "/agenda/pomodoro/page": "/agenda/pomodoro",
+  "/agenda/resumos/page": "/agenda/resumos",
+  "/agenda/teste-vocacional/page": "/agenda/teste-vocacional",
+  "/auth/callback/route": "/auth/callback",
+  "/cadastro/page": "/cadastro",
+  "/fazer-teste/page": "/fazer-teste",
+  "/login/page": "/login",
+  "/page": "/",
+  "/termos-de-uso/page": "/termos-de-uso",
+  "/teste-vocacional/page": "/teste-vocacional",
+  "/vestibular/[slug]/page": "/vestibular/[slug]"
+}

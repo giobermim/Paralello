@@ -1,5 +1,8 @@
 # Paralello 
 
+## 🌐 Acesse o projeto online
+👉 https://paralello.vercel.app
+
 O **Paralello** é uma plataforma desenvolvida como TCC com o objetivo de auxiliar estudantes que estão se preparando para vestibulares brasileiros, centralizando informações e facilitando a organização dos estudos.
 
 ## 🚀 Funcionalidades
